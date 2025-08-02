@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Haven</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    nav {
+      background-color: #17a2b8;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .books {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      padding: 40px 30px;
+    }
+
+    .book {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .book:hover {
+      transform: translateY(-5px);
+    }
+
+    .book h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+      color: #222;
+    }
+
+    .book p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .book button {
+      margin-top: 15px;
+      padding: 8px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .book button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #bbb;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Book Haven</h1>
+    <p>Find your next favorite book today!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Browse</a>
+    <a href="#">Categories</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Explore a World of Books</h2>
+    <p>Handpicked titles from every genre – for every reader.</p>
+  </section>
+
+  <section class="books">
+    <div class="book">
+      <h3>The Alchemist</h3>
+      <p>by Paulo Coelho</p>
+      <button>Buy ₹299</button>
+    </div>
+
+    <div class="book">
+      <h3>Atomic Habits</h3>
+      <p>by James Clear</p>
+      <button>Buy ₹399</button>
+    </div>
+
+    <div class="book">
+      <h3>Ikigai</h3>
+      <p>by Héctor García</p>
+      <button>Buy ₹249</button>
+    </div>
+
+    <div class="book">
+      <h3>Rich Dad Poor Dad</h3>
+      <p>by Robert Kiyosaki</p>
+      <button>Buy ₹349</button>
+    </div>
+
+    <div class="book">
+      <h3>Think Like a Monk</h3>
+      <p>by Jay Shetty</p>
+      <button>Buy ₹289</button>
+    </div>
+
+    <div class="book">
+      <h3>The Psychology of Money</h3>
+      <p>by Morgan Housel</p>
+      <button>Buy ₹319</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Book Haven | Built with ❤️ using only HTML & CSS
+  </footer>
+                  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "766e80ec-bf1d-4553-ab03-beaf6888080a", // Replace with your ID
+        region: "us-south", // or your region
+        serviceInstanceID: "7df2ec6f-687e-4d5b-a1a4-3915c6cc4764", // Replace with your ID
+        onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
