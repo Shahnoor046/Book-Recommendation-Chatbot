@@ -14,7 +14,7 @@ The Online Book Store is a dynamic platform where users can:
 - Discover top-rated books, trending authors, and bestsellers in a simple and intuitive interface.
 
 - ![image alt](https://github.com/Shahnoor046/Book-Recommendation-Chatbot/blob/main/BookCopilot.png?raw=true)
-
+Live demo link --> ![image alt](https://shahnoor046.github.io/Book-Recommendation-Chatbot/)
 ---
 
 ## 🤖 Watson Assistant Integration
